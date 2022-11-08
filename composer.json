@@ -1,0 +1,19 @@
+{
+    "name": "eric/codechallenge",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eric\\CodeChallenge\\": "src/classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eric Olalekan Adedayo",
+            "email": "adedayo.ae@gmail.com"
+        }
+    ],
+    "require": {}
+}
