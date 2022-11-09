@@ -1,0 +1,68 @@
+BEGIN // Test 636bacb897ede // Wednesday 9, November 2022 13:35:52
+Dice Sides = [ 1, 2, 3, 4, 5, 6 ]
+Range of knights to play = [ 1, 2, 3, 4, 5, 6, 7 ]
+Randomly selected key index from range of knights = 2
+Autoselected number of knights to play = 3
+All knights and their respective life points starting from 'Knight 1' to 'Knight 3' = Array
+(
+    [1] => 15
+    [2] => 15
+    [3] => 15
+)
+
+ROUND 1
+Knight 1
+Had 15 points before rolling the dice
+Then had 9 points after rolling 6
+Knight 2
+Had 15 points before rolling the dice
+Then had 12 points after rolling 3
+Knight 3
+Had 15 points before rolling the dice
+Then had 10 points after rolling 5
+
+ROUND 2
+Knight 1
+Had 9 points before rolling the dice
+Then had 6 points after rolling 3
+Knight 2
+Had 12 points before rolling the dice
+Then had 6 points after rolling 6
+Knight 3
+Had 10 points before rolling the dice
+Then had 5 points after rolling 5
+
+ROUND 3
+Knight 1
+Had 6 points before rolling the dice
+Then had 5 points after rolling 1
+Knight 2
+Had 6 points before rolling the dice
+Then had 2 points after rolling 4
+Knight 3
+Had 5 points before rolling the dice
+Then had 4 points after rolling 1
+
+ROUND 4
+Knight 1
+Had 5 points before rolling the dice
+Then had approx. 0 point (actually: 0) after rolling 5 and had to be removed from the playing field
+All knights remaining and their life points after removing 'Knight 1' = Array
+(
+    [2] => 2
+    [3] => 4
+)
+
+Knight 2
+Had 2 points before rolling the dice
+Then had approx. 0 point (actually: 0) after rolling 2 and had to be removed from the playing field
+All knights remaining and their life points after removing 'Knight 2' = Array
+(
+    [3] => 4
+)
+
+At the end, the winner was 'Knight 3' with 4 point(s) remaining
+END // Test 636bacb897ede // Wednesday 9, November 2022 13:35:52
+
+------------------------------------------------------------------------------------------------------
+
